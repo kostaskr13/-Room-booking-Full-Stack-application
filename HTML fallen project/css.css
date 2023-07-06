@@ -1,0 +1,105 @@
+.button {
+    border: none;
+    background-color: transparent;
+    padding: 10;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .logo-text {
+    font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 3vw;
+    color: #23387E;
+  }
+  
+  .button-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .login-button {
+    border: none;
+    background-color: transparent;
+    color: #23387E;
+    padding: 2px 16px;
+    font-weight: bold;
+    font-size: 2vw;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .signup-button {
+    border: 2px solid #47A1DE;
+    background-color: #47A1DE;
+    color: #fff;
+    padding: 2px 16px;
+    font-weight: bold;
+    font-size: 2vw;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+
+
+
+  .dot {
+    color: #47A1DE;
+  }
+  #myCarousel {
+    z-index: 0; /* Set a lower z-index to push it behind the overlay */
+  }
+  .carousel-caption {
+    background-color: rgba(128, 128, 128, 0.5); /* Gray background with transparency */
+    color: #fff; /* White text */
+    padding: 5px;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+  }
+
+  .overlay {
+    
+  z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
+  .login-page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .login-form {
+    margin-top: 20px;
+  }
+  
+  .login-form label,
+  .login-form input,
+  .login-form button {
+    display: block;
+    margin-bottom: 10px;
+  }
